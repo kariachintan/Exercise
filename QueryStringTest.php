@@ -3,7 +3,7 @@
  require_once 'QueryString.php';
 
 /**
- * A suite of tests for the Exercise class
+ * A suite of tests for the QueryString class
  * 
  * @author Chintan Karia
  */
