@@ -1,9 +1,13 @@
 # Exercise class
 
-Cars.pdf - Is a high level databae design
+Cars.pdf - Is a high level database design
 
-Exercise.php - Contains the Exercise class
+Cars.jpq - Contains datatype for all columns
 
-ExcerciseTest.php - A suite of tests for the Exercise class
+PhoneNumber.php - PhoneNumber Class
 
-Exercise.php
+PhoneNumberTest.php -  A suite of tests for the PhoneNumber class
+
+QueryString.php - QueryString class
+
+QueryStringTest.php -  A suite of tests for the QueryString class
