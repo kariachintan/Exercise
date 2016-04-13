@@ -1,12 +1,12 @@
 <?php
 
 /**
- * A basic Exercise class with couple of methods  *  
+ * PhoneNumber class 
  *
  * @author Chintan Karia
  */
 
-class Exercise {
+class PhoneNumber {
 
 	/**
 	 * Takes phone number as input and converts it to usa phone number format i.e. 123-456-7890.
@@ -24,27 +24,6 @@ class Exercise {
     		return preg_replace("/([0-9]{3})([0-9]{3})([0-9]{4})/", "($1) $2-$3", $phoneNumber);
     	else
     		return $strMessage;
-    }
-
-
-    /**
-	 * Takes Couple of string urls as input, reads the query parameters of the URLs, merges them and returns the merged
-	 * array.
-	 *
-	 * @param String strURL1 as URL 1 and strURL2 as second URL
-	 * @return  returns the merged array. 
-	 */
-
-
-    public function mergeQueryStrings($strURL1,$strURL2){
-    	
-    	$parts = parse_url($strURL1);
-    	$parts2 = parse_url($strURL2);   
-
-		parse_str($parts['query'], $output1);
-		parse_str($parts2['query'], $output2);
-
-		return array_merge($output1,$output2);
     }
 }
 ?>
